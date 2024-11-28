@@ -6,12 +6,10 @@ This project simulates an ego vehicle in the CARLA environment using Policy Grad
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Key Components](#key-components)
 - [Training](#training)
-- [Visualization](#visualization)
+- [Report](#report)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
