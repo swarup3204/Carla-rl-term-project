@@ -162,7 +162,8 @@ class PathFollower(gym.Env):
         print(f"Vehicle Speed: {self.obs[3]:.2f} m/s")
         print(f"Velocity Error: {self._errors['velocity_error']:.2f}, Deviation Error: {
               self._errors['deviation_error']:.2f}, Heading Error: {self._errors['heading_error']:.2f}, Total Error: {total_error:.2f}")
-        print(f"Action Taken: Throttle = {action[0]:.2f}, Steer = {steer:.2f}, Brake = {action[2]:.2f}")
+        print(f"Action Taken: Throttle = {action[0]:.2f}, Steer = {
+              steer:.2f}, Brake = {action[2]:.2f}")
         print(f"Reward: {reward:.2f}")
         print("--- End of Step ---\n")
 

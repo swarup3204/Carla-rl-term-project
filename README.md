@@ -13,6 +13,8 @@ This project simulates an ego vehicle in the CARLA environment using Policy Grad
 
 ## Installation
 
+0. Ensure you have CARLA installed and running. You can download CARLA 0.9.11 from the [official website](https://carla.org/). For the purpose of this Assignment, we have used the Carla environment and the CARLA_0.9.11 from Downloads on machine 10.5.19.208 [CSE server](https://cse.iitkgp.ac.in)
+
 1. Clone the repository:
 
     ```sh
@@ -20,13 +22,12 @@ This project simulates an ego vehicle in the CARLA environment using Policy Grad
     cd carla-rl-term-project
     ```
 
-2. Install the required dependencies:
+2. Create a virtual environment and install the required dependencies:
 
     ```sh
     pip install -r requirements.txt
     ```
 
-3. Ensure you have CARLA installed and running. You can download CARLA 0.9.11 from the [official website](https://carla.org/).
 
 ## Usage
 
